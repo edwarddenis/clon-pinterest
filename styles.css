@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* navbar */
+
 nav {
     display: flex;
     flex-direction: row;
@@ -50,3 +52,24 @@ nav {
 .btns-options img {
     height: 30px;
 }
+
+/* Images */
+
+body {
+    margin: 1em;
+}
+
+.container { 
+    columns: 5 320px;
+    column-gap: 1.5em;
+}
+
+img { 
+    max-width: 100%;
+    display: block;
+    margin-bottom: 1.5em;
+    border-radius: 25px;
+}
+
+
+
