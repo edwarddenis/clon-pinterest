@@ -42,20 +42,14 @@ nav {
     color: white;
 }
 
-label {
-    position: relative;
-    border-color: 1px solid red;
+input {
     flex-grow: 1;
-}
-
-label img {
-    position: absolute;
-    top: 50%;
 }
 
 .input {
     border-radius: 50px;
     background-color: rgba(128, 128, 128, 0.224);
+    border-color: transparent;
     height: 70px;
     font-size: 20px;
 }
@@ -87,11 +81,15 @@ body {
     border-radius: 25px;
 }
 
-.btn-card {
+.img-card {
     position: relative;
+}
+
+.btn-card {
+    position: absolute;
     bottom: 230px;
-    left: 200px;
-    width: 130px;
+    left: 210px;
+    width: auto;
     cursor: pointer;
     opacity: 0;
 }
@@ -109,6 +107,45 @@ body {
     border-color: transparent;
     color: white;
 }
+
+.btn-profile {
+    position: relative;
+    bottom: 210px;
+    left: 10px;
+    width: auto;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.img-card:hover .btn-profile{
+    display: block;
+    opacity: 1;
+    font-size: 24px;
+    border-color: transparent;
+    background-color: transparent;
+    color: white;
+}
+
+.btn-points {
+    display: flex;
+    position: relative;
+    bottom: 110px;
+    left: 290px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.img-card:hover .btn-points{
+    justify-content: center;
+    opacity: 1;
+    border-radius: 25px;
+    border-color: transparent;
+    background-color: rgba(205, 202, 202, 0.843);
+}
+
+
 
 
 
